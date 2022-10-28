@@ -11,7 +11,9 @@ function beepBoop(countUpArray) {
 
   let stringArray = countUpArray.map(function(element){
     return element.toString();
+
   });
+  console.log(stringArray)
 
  for (let i = 1; i <= stringArray.length; i+=1) {
   // if (stringArray[i].length > 1) {
