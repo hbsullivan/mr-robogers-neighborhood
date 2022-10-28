@@ -1,29 +1,25 @@
-# {Application Name}
+# Mr. Robogers Neighborhood
 
-#### By {List of contributors}
+#### By Henry Sullivan
 
-#### {Brief description of application}
+#### Application will take a number for an input, and return a list of numbers from 0 to the inputted number. It will replace numbers containing 1s, 2s, and 3s, with Beep!, Boop!, and "Won't you be my neighbor?" respectively. 
 
 ## Technologies Used
 
-- List all
-- the major technologies
-- you used in your project
-- here
+- Javascript
+- HTML
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+This application can take any number as an input, and create a list counting up to that number from zero, all while replacing any number that contains a 1 with "Beep!", and number that contains a 2 with "Boop!", and any number that contains a 3 with "Won't you be my neighbor?"
 
 ## Setup/Installation Requirements
 
-- This is a great place
-- to list setup instructions
-- in a simple
-- easy-to-understand
-- format
+- Clone this repository to the Desktop
+- Navigate to the top level of the directory
+- Open index.html in the browser
+- Can find the project on GitHub by using link https://github.com/hbsullivan/mr-robogers-neighborhood
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}
 
 ## Tests
 
@@ -61,11 +57,17 @@ Expected Output: ["Won't you be my neighbor", '2', '1']```
 
 ## Known Bugs
 
-- Any known issues
-- should go here
+- Only changes 1, 2, and 3 to "Beep!", "Boop!" and "Won't you be my neighbor?" respectively
+- Won't display results on the UI
 
 ## License
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+MIT License
 
-Copyright (c) date author name(s)
+Copyright (c) [2022] [Henry Sullivan]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -16,18 +16,27 @@ function beepBoop(countUpArray) {
 
 
  for (let i = 1; i <= stringArray.length; i+=1) {
+  // if (stringArray[i].length > 1) {
+  //   for (let j = 1; i <= stringArray[j].length; j+=1) {
+  //     if (stringArray[j] === "3") {
+  //       stringArray[i] = "won't you be my neighbor?";
+        
+  //     }
+  //   }
+  //   console.log(stringArray);
+  // }
+
+   if (stringArray[i] === "3") {
+      stringArray[i] = "won't you be my neighbor?";
+    } else if (stringArray[i] === "2") {
+      stringArray[i] = "Boop!";
+    } else if (stringArray[i] === "1") {
+       stringArray[i] = "Beep!"
+    }
   
-
-//    if (stringArray[i].includes("3")) {
-//       stringArray[i] = "won't you be my neighbor?";
-//     } else if (stringArray[i] === "2") {
-//       stringArray[i] = "Boop!";
-//     } else if (stringArray[i] === "1") {
-//        stringArray[i] = "Beep!"
-//     }
   }
-
-//    return stringArray
+  return stringArray
+  
  }
 
 
@@ -37,7 +46,7 @@ function beepBoop(countUpArray) {
   event.preventDefault();
   const userInput = document.getElementById("numberInput").value
 
-  document.getElementById("return").innerText = countUp(userInput)
+  document.getElementById("return").innerText = beepBoop(userInput)
  }
 
  window.addEventListener("load", function() {
