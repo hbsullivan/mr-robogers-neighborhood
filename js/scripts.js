@@ -2,14 +2,9 @@ function countUp(input) {
   countUpArray = [];
   for(let i = input; i >= 0; i --) {
     countUpArray.push(i)
-    // return countUpArray
   }
   countUpArray.reverse();
-  // return countUpArray;
-  let arrayString = countUpArray.map(function(element){
-     return element.toString();
-});
-return arrayString
+  return countUpArray;
 }
 
 function beepBoop(countUpArray) {
