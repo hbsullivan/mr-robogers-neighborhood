@@ -38,9 +38,12 @@ Expected Output: [0, 1, 2, 3, 4, 5]
 Describe: beepBoop(countUp)
 
 Test: "It should return an array with 3 being replaced with 'Won't you be my neighbor?'"
-code: beepBoop(5)
+Code: beepBoop(5)
 Expected Output: [0,1,2,"won't you be my neighbor",4,5]
 
+Test: ""It should return an array with 2 being replaced with 'Boop!'"
+Code: beepBoop(5)
+Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
 
 
 
