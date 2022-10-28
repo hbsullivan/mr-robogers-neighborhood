@@ -57,8 +57,7 @@ Expected Output: ["Won't you be my neighbor", '2', '1']
 
 ## Known Bugs
 
-- Only changes 1, 2, and 3 to "Beep!", "Boop!" and "Won't you be my neighbor?" respectively
-- Won't display results on the UI
+- Only changes 1, 2, and 3 to "Beep!", "Boop!" and "Won't you be my neighbor?" respectively not any other numbers containing 1, 2, or 3
 
 ## License
 
