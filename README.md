@@ -25,43 +25,43 @@ This application can take any number as an input, and create a list counting up 
 
 ## Tests
 
-```Describe: countUp()
+Describe: countUp()
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: countUp(5);
-Expected Output: [0, 1, 2, 3, 4, 5]```
+Test: "It should return an array of numbers from 0 to the user's inputted number"\
+Code: \countUp(5);\
+Expected Output: [0, 1, 2, 3, 4, 5]\
 
 
-```Describe: beepBoop(countUpArray)
+Describe: beepBoop(countUpArray)\
 
-Test: "It should convert number array into a string array"
-Code: beepBoop(countUpArray)
-countUpArray = [0,1, 2, 3, 4, 5]
-Expected Output: ['0', '1', '2' ,'3' ,'4', '5'`
+Test: "It should convert number array into a string array"\
+Code:\ beepBoop(countUpArray)\
+countUpArray = [0,1, 2, 3, 4, 5]\
+Expected Output: ['0', '1', '2' ,'3' ,'4', '5']\
 
-Test: "It should return an array with 3 being replaced with 'Won't you be my neighbor?'"
-Code: beepBoop(countUpArray)
-Expected Output: [0,1,2,"won't you be my neighbor",4,5]
+Test: "It should return an array with 3 being replaced with 'Won't you be my neighbor?'"\
+Code:\ beepBoop(countUpArray)\
+Expected Output: [0,1,2,"won't you be my neighbor",4,5]\
 
-Test: "It should return an array with 2 being replaced with 'Boop!'"
-Code: beepBoop(countUpArray)
-Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
+Test: "It should return an array with 2 being replaced with 'Boop!'"\
+Code:\ beepBoop(countUpArray)\
+Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]\
 
-Test: "It should return an array with 1 being replaced with 'Beep!'"
-Code: beepBoop (countUpArray)
-Expected Output: [0, "Beep!, "Boop!", "Won't you be my neighbor?", 4, 5]
+Test: "It should return an array with 1 being replaced with 'Beep!'"\
+Code: \beepBoop (countUpArray)\
+Expected Output: [0, "Beep!, "Boop!", "Won't you be my neighbor?", 4, 5]\
 
-Test: "It should replace all numbers containing a three with 'Won't you be my neighbor?'"
-Code: 
-countUpArray = ['31','2', '1']
-beepBoop(countUpArray)
-Expected Output: ["Won't you be my neighbor", '2', '1']
+Test: "It should replace all numbers containing a three with 'Won't you be my neighbor?'"\
+Code: \
+countUpArray = ['31','2', '1']\
+beepBoop(countUpArray)\
+Expected Output: ["Won't you be my neighbor", '2', '1']\
 
-Test: "It should replace all numbers containing a 1 and a 2 with Beep! and Boop! Respectively
-Code: 
-countUpArray = ['31','21', '11']
-beepBoop(countUpArray)
-Expected Output: ["Won't you be my neighbor", 'Boop!', 'Beep!']```
+Test: "It should replace all numbers containing a 1 and a 2 with Beep! and Boop! Respectively\
+Code: \
+countUpArray = ['31','21', '11']\
+beepBoop(countUpArray)\
+Expected Output: ["Won't you be my neighbor", 'Boop!', 'Beep!']\
 
 ## Known Bugs
 
