@@ -21,5 +21,6 @@ function beepBoop(countUpArray) {
       stringArray[i] = "Beep!"
     }
   }
+  
   return stringArray
 }
