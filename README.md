@@ -56,6 +56,12 @@ countUpArray = ['31','2', '1']
 beepBoop(countUpArray)
 Expected Output: ["Won't you be my neighbor", '2', '1']
 
+Test: "It should replace all numbers containing a 1 and a 2 with Beep! and Boop! Respectively
+Code: 
+countUpArray = ['31','21', '11']
+beepBoop(countUpArray)
+Expected Output: ["Won't you be my neighbor", 'Boop!', 'Beep!']
+
 ## Known Bugs
 
 - Only changes 1, 2, and 3 to "Beep!", "Boop!" and "Won't you be my neighbor?" respectively not any other numbers containing 1, 2, or 3
