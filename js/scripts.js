@@ -1,22 +1,17 @@
-function countingUp(input) {
-  countUp = [];
+function countUp(input) {
+  countUpArray = [];
   for(let i = input; i >= 0; i --) {
-    countUp.push(i)
+    countUpArray.push(i)
   }
-  countUp.reverse();
-  console.log(countUp)
-  // return countUp;
-  
+  countUpArray.reverse();
+  return countUpArray;
 }
 
-// function beepBoop(countUp) {
-//   let replacedBeepBoop = [];
-//   countUp.forEach(function(element) {
-//     if (element.includes(3)) {
-//       let replacedThree = countUp.splice(countUp.indexOf(3), 1, "won't you be my neighbor?");
-//       return replacedThree;
-//       console.log(replacedThree);
-//     }
-//     console.log(replacedThree);
-//   })
-// }
+function beepBoop(countUpArray) {
+  for (let i = 1; i <= countUpArray.length; i+=1) {
+    if (countUpArray[i] === 3) {
+      countUpArray[i] = "won't you be my neighbor?";
+    } 
+  }
+  console.log(countUpArray)
+}
