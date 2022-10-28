@@ -2,9 +2,14 @@ function countUp(input) {
   countUpArray = [];
   for(let i = input; i >= 0; i --) {
     countUpArray.push(i)
+    // return countUpArray
   }
   countUpArray.reverse();
-  return countUpArray;
+  // return countUpArray;
+  let arrayString = countUpArray.map(function(element){
+     return element.toString();
+});
+return arrayString
 }
 
 function beepBoop(countUpArray) {
@@ -13,7 +18,9 @@ function beepBoop(countUpArray) {
       countUpArray[i] = "won't you be my neighbor?";
     } else if (countUpArray[i] === 2) {
       countUpArray[i] = "Boop!";
+    } else if (countUpArray[i] === 1) {
+      countUpArray[i] = "Beep!"
     }
   }
-  console.log(countUpArray)
+  return countUpArray
 }
