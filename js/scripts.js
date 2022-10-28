@@ -8,14 +8,15 @@ function countUp(input) {
 }
 
 function beepBoop(countUpArray) {
+
   let stringArray = countUpArray.map(function(element){
     return element.toString();
   });
   console.log(stringArray);
-  
-  
 
-//  for (let i = 1; i <= stringArray.length; i+=1) {
+
+ for (let i = 1; i <= stringArray.length; i+=1) {
+  
 
 //    if (stringArray[i].includes("3")) {
 //       stringArray[i] = "won't you be my neighbor?";
@@ -24,7 +25,22 @@ function beepBoop(countUpArray) {
 //     } else if (stringArray[i] === "1") {
 //        stringArray[i] = "Beep!"
 //     }
-//   }
+  }
 
 //    return stringArray
  }
+
+
+ //UI Logic
+
+ function gatherInput(event) {
+  event.preventDefault();
+  const userInput = document.getElementById("numberInput").value
+
+  document.getElementById("return").innerText = countUp(userInput)
+ }
+
+ window.addEventListener("load", function() {
+  const form = document.getElementById("form");
+  form.addEventListener("submit", gatherInput);
+ })
