@@ -27,28 +27,37 @@
 
 ## Tests
 
-Use triple backticks at the beginning and end of your tests to have them formatted as code on your README.
+```Describe: countUp()```
 
-Describe: countUp()
-
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+```Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: countUp(5);
-Expected Output: [0, 1, 2, 3, 4, 5]
+Expected Output: [0, 1, 2, 3, 4, 5]```
 
 
-Describe: beepBoop(countUpArray)
+```Describe: beepBoop(countUpArray)```
 
-Test: "It should return an array with 3 being replaced with 'Won't you be my neighbor?'"
+```Test: "It should convert number array into a string array"
 Code: beepBoop(countUpArray)
-Expected Output: [0,1,2,"won't you be my neighbor",4,5]
+countUpArray = [0,1, 2, 3, 4, 5]
+Expected Output: ['0', '1', '2' ,'3' ,'4', '5']```
 
-Test: "It should return an array with 2 being replaced with 'Boop!'"
+```Test: "It should return an array with 3 being replaced with 'Won't you be my neighbor?'"
 Code: beepBoop(countUpArray)
-Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
+Expected Output: [0,1,2,"won't you be my neighbor",4,5]```
 
-Test: "It should return an array with 1 being replaced with 'Beep!'"
+```Test: "It should return an array with 2 being replaced with 'Boop!'"
+Code: beepBoop(countUpArray)
+Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]```
+
+```Test: "It should return an array with 1 being replaced with 'Beep!'"
 Code: beepBoop (countUpArray)
-Expected Output: [0, "Beep!, "Boop!", "Won't you be my neighbor?", 4, 5]
+Expected Output: [0, "Beep!, "Boop!", "Won't you be my neighbor?", 4, 5]```
+
+```Test: "It should replace all numbers containing a three with 'Won't you be my neighbor?'"
+Code: 
+countUpArray = ['31','2', '1']
+beepBoop(countUpArray)
+Expected Output: ["Won't you be my neighbor", '2', '1']```
 
 ## Known Bugs
 
