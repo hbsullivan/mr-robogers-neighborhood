@@ -16,6 +16,17 @@ function beepBoop(countUpArray) {
   });
 
   for (let i = 0; i < stringArray.length; i+=1) {
+    // for (let j = 0; j <= stringArray[i].length; i+=1) {
+      // let someNumber = stringArray[i].charAt[j]
+      if (i.includes("3")) {
+        stringArray[i] = " Won't you be my neighbor? ";
+      } else if (someNumber === "2") {
+        stringArray[i] = " Boop! ";
+      } else if (someNumber === "1") {
+        stringArray[i] = " Beep! ";
+      }
+    // }
+  }
 
     firstNumber = stringArray[i].charAt(0);
     secondNumber = stringArray[i].charAt(1);
