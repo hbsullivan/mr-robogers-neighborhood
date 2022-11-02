@@ -65,7 +65,7 @@ Expected Output: ["Won't you be my neighbor", 'Boop!', 'Beep!']
 
 ## Known Bugs
 
-- Only changes numbers containing 1, 2, and 3 up to a certain idex
+- No known bugs
 
 ## License
 
